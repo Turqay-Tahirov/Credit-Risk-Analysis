@@ -17,7 +17,7 @@
 ## 🚀 Layihə Mərhələləri (Project Stages)
 - [x] Repozitoriyanın qurulması (Repository Setup)
 - [/] README sənədləşməsinin hazırlanması (Documentation)
-- [ ] Python ilə məlumatların ilkin emalı (Python Data Prep)
+- [ ] Python ilə məlumatların ilkin emalı (Python Data Cleaning)
 - [ ] SQL sorğuları ilə analitika (SQL Analytics)
 - [ ] Power BI-da Data Modeling və DAX (Modeling & DAX)
 - [ ] UI/UX Premium Dizayn (Dashboard Finalization)
