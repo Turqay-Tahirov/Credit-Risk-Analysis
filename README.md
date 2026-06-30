@@ -5,6 +5,13 @@
 
 **EN:** This end-to-end analytics project focuses on credit risk management in banking and fintech. It analyzes borrower demographics and loan attributes to predict and visualize default rates for better decision-making.
 
+
+AZ (Azərbaycanca)
+Mətn: Bu layihə, banklarda kredit risklərini daha yaxşı idarə etmək üçün hazırlanıb. Müştərilərin məlumatları (yaşı, gəliri, evi olub-olmaması) və götürdükləri kreditin xüsusiyyətləri analiz edilir. Məqsəd — hansı müştərilərin krediti gecikdirə biləcəyini (defolt riskini) əvvəlcədən təxmin etmək və bu məlumatları aydın, interaktiv qrafiklərlə hesabat halına gətirməkdir.
+
+EN (İngiliscə)
+Text: This project is built to improve credit risk management in banking. It analyzes customer data (age, income, home ownership) and loan details to predict which borrowers might fail to pay back their loans. The goal is to visualize these risks through clean, interactive dashboards for better decision-making.
+
 ---
 
 ## 🛠 Texnologiyalar (Tech Stack)
