@@ -1,10 +1,9 @@
 # Credit Risk Analytics Dashboard
 
 ## 📌 Layihə Haqqında (About the Project)
-**AZ:** Bu layihə, banklarda kredit risklərini daha yaxşı idarə etmək üçün hazırlanıb. Müştərilərin məlumatları (yaşı, gəliri, evi olub-olmaması) və götürdükləri kreditin xüsusiyyətləri analiz edilir. Məqsəd — hansı müştərilərin krediti gecikdirə biləcəyini (defolt riskini) əvvəlcədən təxmin etmək və bu məlumatları aydın, interaktiv qrafiklərlə hesabat halına gətirməkdir.
+**AZ:** Bu layihə, bank mühitində kredit risklərinin effektiv idarə edilməsi və optimallaşdırılması üçün hazırlanıb. Müştərilərin demoqrafik göstəriciləri (yaş, iş təcrübəsi), ümumi gəlirləri (əsas maaş və komissiya bonusları) və kredit xüsusiyyətləri analiz edilir. Məqsəd — hansı müştərilərin ödənişi gecikdirə biləcəyini (Default riski) əvvəlcədən təyin etmək və bu riskləri modern, tünd rejimli (Dark Mode) interaktiv dashboard-lar vasitəsilə qərarvericilərə təqdim etməkdir.
 
-**EN:** This project is built to improve credit risk management in banking. It analyzes customer data (age, income, home ownership) and loan details to predict which borrowers might fail to pay back their loans. The goal is to visualize these risks through clean, interactive dashboards for better decision-making.
-
+**EN:** This project is designed to enhance credit risk management in banking. It analyzes customer demographics (age, work experience), total income (base salary and commission bonuses), and loan characteristics. The goal is to identify high-risk borrowers (Default Risk) and visualize these insights through modern, Dark Mode interactive dashboards for efficient credit decision-making.
 ---
 
 ## 🛠 Texnologiyalar (Tech Stack)
