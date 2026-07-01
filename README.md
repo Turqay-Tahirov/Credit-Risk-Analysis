@@ -3,7 +3,11 @@
 ## 📌 Layihə Haqqında (About the Project)
 **AZ:** Bu layihə, bank mühitində kredit risklərinin effektiv idarə edilməsi və optimallaşdırılması üçün hazırlanıb. Müştərilərin demoqrafik göstəriciləri (yaş, iş təcrübəsi), ümumi gəlirləri (əsas maaş və komissiya bonusları) və kredit xüsusiyyətləri analiz edilir. Məqsəd — hansı müştərilərin ödənişi gecikdirə biləcəyini (Default riski) əvvəlcədən təyin etmək və bu riskləri modern, tünd rejimli (Dark Mode) interaktiv dashboard-lar vasitəsilə qərarvericilərə təqdim etməkdir.
 
-**EN:** This project is designed to enhance credit risk management in banking. It analyzes customer demographics (age, work experience), total income (base salary and commission bonuses), and loan characteristics. The goal is to identify high-risk borrowers (Default Risk) and visualize these insights through modern, Dark Mode interactive dashboards for efficient credit decision-making.
+**AZ:** This project is designed to enhance credit risk management in banking. It analyzes customer demographics (age, work experience), total income (base salary and commission bonuses), and loan characteristics. The goal is to identify high-risk borrowers (Default Risk) and visualize these insights through modern, Dark Mode interactive dashboards for efficient credit decision-making.
+
+
+
+
 ---
 
 ## 🛠 Texnologiyalar (Tech Stack)
