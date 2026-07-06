@@ -20,14 +20,7 @@
 *   [x] 📝 README sənədləşməsinin hazırlanması (Documentation)
 *   [ ] 🛠️ Python ilə məlumatların ilkin emalı (Python Data Cleaning)
 *   [ ] 📊 Python ilə  analiz (Python EDA & Risk Analytics)
-*   [ ] 🗄️ SQL sorğuları ilə analitika (SQL Analytics)
+*   [x] 🗄️ SQL sorğuları ilə analitika (SQL Analytics)
 *   [ ] 📐 Power BI-da Data Modeling və DAX (Modeling & DAX)
 *   [ ] 🎨 UI/UX Premium Dizayn (Dashboard Finalization)
 
-
-- [x] Repozitoriyanın qurulması (Repository Setup)
-- [x] README sənədləşməsinin hazırlanması (Documentation)
-- [ ] Python ilə məlumatların ilkin emalı (Python Data Cleaning)
-- [x] SQL sorğuları ilə analitika (SQL Analytics)
-- [ ] Power BI-da Data Modeling və DAX (Modeling & DAX)
-- [ ] UI/UX Premium Dizayn (Dashboard Finalization)
