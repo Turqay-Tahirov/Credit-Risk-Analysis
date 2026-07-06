@@ -24,3 +24,27 @@
 *   [ ] 📐 Power BI-da Data Modeling və DAX (Modeling & DAX)
 *   [ ] 🎨 UI/UX Premium Dizayn (Dashboard Finalization)
 
+## 📊 Dataset Haqqında (About the Dataset)
+
+**AZ:** Bu layihədə istifadə olunan dataset bank müştərilərinin kredit tarixçələrini və demoqrafik məlumatlarını əks etdirir. Dataset ümumilikdə 32,409 müştərinin məlumatından və risk analizində kritik rol oynayan fərqli göstəricilərdən (sütunlardan) ibarətdir.
+
+**EN:** The dataset used in this project represents bank customers' credit histories and demographic data. It includes information for 32,409 customers and features critical indicators used in credit risk analysis.
+
+### 📋 Göstəricilərin Təsviri (Data Dictionary)
+
+### 📋 Göstəricilərin Təsviri (Data Dictionary)
+
+| Column Name | Təsvir (Description) - AZ | Description - EN |
+| :--- | :--- | :--- |
+| `person_age` | Müştərinin yaşı | Age of the customer |
+| `person_income` | Müştərinin illik ümumi gəliri | Annual income of the customer |
+| `person_home_ownership` | Yaşayış şəraiti (Kirayə, İpoteka, Şəxsi, Digər) | Housing status (Rent, Mortgage, Own, Other) |
+| `person_emp_length` | Müştərinin iş təcrübəsi (il ilə) | Employment length of the borrower in years |
+| `loan_intent` | Kreditin götürülmə səbəbi (Təhsil, Tibb, Şəxsi və s.) | Purpose of the loan (Education, Medical, Personal, etc.) |
+| `loan_grade` | Bank daxili risk reytinqi (A-G) | Internal credit grade/rating based on risk (A to G) |
+| `loan_amnt` | Götürülən kreditin ümumi məbləği | Total loan amount requested by the borrower |
+| `loan_int_rate` | Kreditə tətbiq olunan faiz dərəcəsi | Interest rate applied to the loan |
+| `loan_status` | Defolt vəziyyəti (0 = Ödəyir, 1 = Defolt/Gecikdirir) | Loan status (0 = Non-default, 1 = Default/Insolvency) |
+| `loan_percent_income` | Götürülən kreditin illik gəlirə olan nisbəti (faizlə) | Loan amount as a proportion of the customer's annual income |
+| `cb_person_default_on_file` | Əvvəllər rəsmi ödəniş gecikdirilməsinin olması (Y/N) | Historical default indicator on credit bureau file (Yes/No) |
+| `cb_person_cred_hist_length` | Müştərinin kredit tarixçəsinin uzunluğu (il ilə) | Length of the customer's credit history in years |
