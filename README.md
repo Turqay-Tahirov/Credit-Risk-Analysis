@@ -32,8 +32,6 @@
 
 ### 📋 Göstəricilərin Təsviri (Data Dictionary)
 
-### 📋 Göstəricilərin Təsviri (Data Dictionary)
-
 | Column Name | Təsvir (Description) - AZ | Description - EN |
 | :--- | :--- | :--- |
 | `person_age` | Müştərinin yaşı | Age of the customer |
