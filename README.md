@@ -18,7 +18,7 @@
 
 *   [x] 🏗️ Repozitoriyanın qurulması (Repository Setup)
 *   [x] 📝 README sənədləşməsinin hazırlanması (Documentation)
-*   [ ] 🛠️ Python ilə məlumatların ilkin emalı (Python Data Cleaning)
+*   [x] 🛠️ Python ilə məlumatların ilkin emalı (Python Data Cleaning)
 *   [ ] 📊 Python ilə  analiz (Python EDA & Risk Analytics)
 *   [x] 🗄️ SQL sorğuları ilə analitika (SQL Analytics)
 *   [ ] 📐 Power BI-da Data Modeling və DAX (Modeling & DAX)
