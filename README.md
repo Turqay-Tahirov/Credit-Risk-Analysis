@@ -21,7 +21,7 @@
 *   [x] 🛠️ Python ilə məlumatların ilkin emalı (Python Data Cleaning)
 *   [x] 📊 Python ilə  analiz (Python EDA & Risk Analytics)
 *   [x] 🗄️ SQL sorğuları ilə analitika (SQL Analytics)
-*   [ ] 📐 Power BI-da Data Modeling və DAX (Modeling & DAX)
+*   [x] 📐 Power BI-da Data Modeling və DAX (Modeling & DAX)
 *   [ ] 🎨 UI/UX Premium Dizayn (Dashboard Finalization)
 
 ## 📊 Dataset Haqqında (About the Dataset)
