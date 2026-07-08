@@ -22,7 +22,7 @@
 *   [x] 📊 Python ilə  analiz (Python EDA & Risk Analytics)
 *   [x] 🗄️ SQL sorğuları ilə analitika (SQL Analytics)
 *   [x] 📐 Power BI-da Data Modeling və DAX (Modeling & DAX)
-*   [ ] 🎨 UI/UX Premium Dizayn (Dashboard Finalization)
+*   [x] 🎨 UI/UX Premium Dizayn (Dashboard Finalization)
 
 ## 📊 Dataset Haqqında (About the Dataset)
 
