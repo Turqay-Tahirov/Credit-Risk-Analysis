@@ -105,13 +105,13 @@ Analiz nəticəsində bankın risk menecmenti üçün kritik əhəmiyyət kəsb 
 ---
 
 ## 🚀 Layihə Mərhələləri (Project Stages)
-1. 🏗️ Repozitoriyanın qurulması (Repository Setup)
-2. 📝 README sənədləşməsinin hazırlanması (Documentation)
-3. 🛠️ Python ilə məlumatların ilkin emalı (Python Data Cleaning)
-4. 📊 Python ilə analiz (Python EDA & Risk Analytics)
-5. 🗄️ SQL sorğuları ilə analitika (SQL Analytics)
-6. 📐 Power BI-da Data Modeling və DAX (Modeling & DAX)
-7. 🎨 UI/UX Premium Dizayn (Dashboard Finalization)
+* [x] 🏗️ Repozitoriyanın qurulması (Repository Setup)
+* [x] 📝 README sənədləşməsinin hazırlanması (Documentation)
+* [x] 🛠️ Python ilə məlumatların ilkin emalı (Python Data Cleaning)
+* [x] 📊 Python ilə analiz (Python EDA & Risk Analytics)
+* [x] 🗄️ SQL sorğuları ilə analitika (SQL Analytics)
+* [x] 📐 Power BI-da Data Modeling və DAX (Modeling & DAX)
+* [x] 🎨 Dashboard Dizaynı və UI/UX Optimallaşdırılması (Dashboard Finalization)
 
 ---
 
