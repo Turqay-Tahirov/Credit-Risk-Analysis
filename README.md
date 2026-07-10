@@ -51,6 +51,31 @@
 | **cb_person_default_on_file** | Əvvəllər rəsmi ödəniş gecikdirilməsinin olması (Y/N) |
 | **cb_person_cred_hist_length** | Müştərinin kredit tarixçəsinin uzunluğu (il ilə) |
 
+
+---
+Data Processing & Cleaning
+Bu mərhələdə credit_risk_dataset.csv bazası analiz edilmiş, keyfiyyəti və dəqiqliyi artırmaq üçün aşağıdakı təmizləmə proseslərindən keçirilmişdir:
+
+1. Missing Values (Boş Xanalar)
+Datadakı boş xanalar informasiya itkisinin qarşısını almaq məqsədilə median (orta göstərici) ilə doldurulmuşdur:
+
+person_emp_length (İş stajı): 895 boş xana tamamlandı.
+
+loan_int_rate (Kredit faizi): 3116 boş xana tamamlandı.
+
+2. Outliers (Anomaliyaların Təmizlənməsi)
+Biznes məntiqinə uyğun gəlməyən və sistem xətası olan ekstremal kənarlaşmalar filtrlənmişdir:
+
+Müştəri Yaşı (person_age): 100-dən böyük olan (max: 144) 5 sətir silindi. Maksimum yaş 94-ə endirildi.
+
+İş Stajı (person_emp_length): 60 ildən çox olan (max: 123) 2 sətir silindi. Maksimum staj 41 ilə endirildi.
+
+3. Yekun Data Statusu
+Dublikat (təkrar) sətirlər yoxlanıldı və təmizləndi.
+
+Yekun Ölçü: 32,409 sətir, 12 sütun.
+
+Çıxış (Export): Təmizlənmiş master-data növbəti vizuallaşdırma və EDA mərhələsi üçün ../data/cleaned/credit_risk_cleaned.csv ünvanına qeyd edildi.
 ---
 
 ## 📊 Kredit Riski Analizi - Kəşfiyyatçı Data Analizi (EDA)
