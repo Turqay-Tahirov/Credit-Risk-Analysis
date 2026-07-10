@@ -9,7 +9,6 @@
 ## 🎨 Layihənin Dashboard Görünüşü
 ![Power BI Dashboard](images/credit_risk_analysis_dashboard.png)
 
-
 ---
 
 ## 🛠 Texnologiyalar (Tech Stack)
@@ -51,10 +50,9 @@
 | **cb_person_default_on_file** | Əvvəllər rəsmi ödəniş gecikdirilməsinin olması (Y/N) |
 | **cb_person_cred_hist_length** | Müştərinin kredit tarixçəsinin uzunluğu (il ilə) |
 
-
 ---
-## 🛠️ Məlumatların Təmizlənməsi (Data Cleaning & Quality Control)
 
+## 🛠️ Məlumatların Təmizlənməsi (Data Cleaning & Quality Control)
 Xam məlumatlar (`credit_risk_dataset.csv`) proqram mühitinə yükləndikdən sonra, modelin dəqiqliyini qorumaq və risk analizini düzgün aparmaq üçün genişmiqyaslı data təmizlənməsi prosesi icra edilmişdir.
 
 ### 1. Boş Xanaların Doldurulması (Missing Values Imputation)
@@ -74,6 +72,7 @@ Biznes məntiqinə və real insan limitlərinə uyğun gəlməyən sistem xətal
 Təkrar (dublikat) sətirlər yoxlanılmış, indekslər sıfırlanmış və yekun master-data növbəti mərhələlər üçün `../data/cleaned/credit_risk_cleaned.csv` ünvanına təhlükəsiz şəkildə eksport edilmişdir. 
 
 * **Yekun ölçü:** 32,409 sətir, 12 ana sütun.
+
 ---
 
 ## 📊 Kredit Riski Analizi - Kəşfiyyatçı Data Analizi (EDA)
@@ -92,25 +91,17 @@ Bankın kredit riskini (`loan_status`) daha effektiv idarə etmək üçün datad
 
 ---
 
-## 🚨 Əsas Tapıntılar və Biznes Qərarları
-Analiz nəticəsində bankın risk menecmenti üçün kritik əhəmiyyət kəsb edən aşağıdakı **4 əsas qərar** qəbul edilmişdir:
+## 🚨 Əsas Biznes Tapıntıları və Strateji Qərarlar (Key Insights & Business Decisions)
+Analiz nəticəsində bankın risk menecmenti üçün kritik əhəmiyyət kəsb edən aşağıdakı **4 əsas qərar** müəyyən edilmişdir:
 
-<blockquote>
-  <strong>⚠️ 1. Ən Böyük Risk (Borcun Gəlirə Nisbəti - 0.38):</strong> Kredit məbləğinin müştərinin illik gəlirindəki payı artdıqca risk kəskin şəkildə yüksəlir.<br>
-  <strong>💡 Biznes Qərarı:</strong> Gəlirinə görə çox böyük məbləğdə kredit istəyən şəxslərə ciddi limitlər qoyulmalıdır.
-</blockquote>
+> ⚠️ **1. Ən Böyük Risk (Borcun Gəlirə Nisbəti - 0.38):** Kredit məbləğinin müştərinin illik gəlirindəki payı artdıqca risk kəskin şəkildə yüksəlir.
+> * **Biznes Qərarı:** Gəlirinə görə çox böyük məbləğdə kredit istəyən şəxslərə ciddi limitlər qoyulmalıdır.
 
-<blockquote>
-  <strong>📈 2. Yüksək Kredit Faizləri (0.32):</strong> Faiz dərəcəsi yüksək olduqca aylıq ödəniş ağırlaşır və kreditin batma riski artır.<br>
-  <strong>💡 Biznes Qərarı:</strong> Yüksək faizli kredit alan müştərilərdən əlavə zamin və ya girov tələb olunmalıdır.
-</blockquote>
+> 📈 **2. Yüksək Kredit Faizləri (0.32):** Faiz dərəcəsi yüksək olduqca aylıq ödəniş ağırlaşır və kreditin batma riski artır.
+> * **Biznes Qərarı:** Yüksək faizli kredit alan müştərilərdən əlavə zamin və ya girov tələb olunmalıdır.
 
-<blockquote>
-  <strong>💰 3. İllik Gəlir Faktoru (-0.17):</strong> Müştərinin illik gəliri artdıqca kreditin batma riski azalır (mənfi əlaqə).<br>
-  <strong>💡 Biznes Qərarı:</strong> Yüksək gəlirli müştərilərə kreditlər daha sürətli və asan şərtlərlə təsdiqlənməlidir.
-</blockquote>
+> 💰 **3. İllik Gəlir Faktoru (-0.17):** Müştərinin illik gəliri artdıqca kreditin batma riski azalır (mənfi əlaqə).
+> * **Biznes Qərarı:** Yüksək gəlirli müştərilərə kreditlər daha sürətli və asan şərtlərlə təsdiqlənməlidir.
 
-<blockquote>
-  <strong>🏠 4. Ev Sahibliyi Statusu (Ən Kritik Seqment):</strong> Kirayədə qalan (RENT) və OTHER statuslu müştərilərin kredit batırma faizi ~30%-ə yaxındır. Öz evi olanlarda (OWN) isə bu risk 10%-dən aşağıdır.<br>
-  <strong>💡 Biznes Qərarı:</strong> Kredit şöbəsi kirayədə qalan müştərilərə kredit ayırarkən daha ciddi anderraytinq (yoxlama) şərtləri tətbiq etməli və risk premiumunu fərqli hesablamalıdır.
-</blockquote>
+> 🏠 **4. Ev Sahibliyi Statusu (Ən Kritik Seqment):** Kirayədə qalan (RENT) və OTHER statuslu müştərilərin kredit batırma faizi ~30%-ə yaxındır. Öz evi olanlarda (OWN) isə bu risk 10%-dən aşağıdır.
+> * **Biznes Qərarı:** Kredit şöbəsi kirayədə qalan müştərilərə kredit ayırarkən daha ciddi anderraytinq (yoxlama) şərtləri tətbiq etməli və risk premiumunu fərqli hesablamalıdır.
