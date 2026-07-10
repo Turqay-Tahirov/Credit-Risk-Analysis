@@ -7,8 +7,8 @@
 ---
 
 ## 🎨 Layihənin Dashboard Görünüşü
-![Power BI Dashboard](images/power_bi_dashboard.png)
-*(Qeyd: Əgər images qovluğundakı Power BI şəklinin adı fərqlidirsə, yuxarıdakı "power_bi_dashboard.png" hissəsini həmin adla dəyiş)*
+![Power BI Dashboard](images/credit_risk_analysis_dashboard.png)
+
 
 ---
 
