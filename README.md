@@ -53,7 +53,7 @@
 
 
 ---
-Data Processing & Cleaning
+### Data Processing & Cleaning
 Bu mərhələdə credit_risk_dataset.csv bazası analiz edilmiş, keyfiyyəti və dəqiqliyi artırmaq üçün aşağıdakı təmizləmə proseslərindən keçirilmişdir:
 
 1. Missing Values (Boş Xanalar)
