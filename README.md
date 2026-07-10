@@ -53,29 +53,27 @@
 
 
 ---
-### Data Processing & Cleaning
-Bu mərhələdə credit_risk_dataset.csv bazası analiz edilmiş, keyfiyyəti və dəqiqliyi artırmaq üçün aşağıdakı təmizləmə proseslərindən keçirilmişdir:
+## 🛠️ Məlumatların Təmizlənməsi (Data Cleaning & Quality Control)
 
-1. Missing Values (Boş Xanalar)
-Datadakı boş xanalar informasiya itkisinin qarşısını almaq məqsədilə median (orta göstərici) ilə doldurulmuşdur:
+Xam məlumatlar (`credit_risk_dataset.csv`) proqram mühitinə yükləndikdən sonra, modelin dəqiqliyini qorumaq və risk analizini düzgün aparmaq üçün genişmiqyaslı data təmizlənməsi prosesi icra edilmişdir.
 
-person_emp_length (İş stajı): 895 boş xana tamamlandı.
+### 1. Boş Xanaların Doldurulması (Missing Values Imputation)
+İnformasiya itkisinin qarşısının alması məqsədilə boş olan xanalar (NaN) datadan silinməmiş, hər sütunun öz **median** göstəricisi ilə tamamlanmışdır:
+* **`person_emp_length`** (İş təcrübəsi): `895` boş xana dolduruldu.
+* **`loan_int_rate`** (Kredit faizi): `3,116` boş xana dolduruldu.
 
-loan_int_rate (Kredit faizi): 3116 boş xana tamamlandı.
+### 2. Anomaliyaların Təmizlənməsi (Outliers Filtration)
+Biznes məntiqinə və real insan limitlərinə uyğun gəlməyən sistem xətaları (ekstremal kənarlaşmalar) filtrlənərək təmizlənmişdir.
 
-2. Outliers (Anomaliyaların Təmizlənməsi)
-Biznes məntiqinə uyğun gəlməyən və sistem xətası olan ekstremal kənarlaşmalar filtrlənmişdir:
+| Sütun Adı | Əvvəlki Maksimum | Görülən Tədbir | Sonrakı Maksimum |
+| :--- | :---: | :--- | :---: |
+| **person_age** | 144 yaş | > 100 olan 5 sətir silindi | 94 yaş |
+| **person_emp_length** | 123 il | > 60 olan 2 sətir silindi | 41 il |
 
-Müştəri Yaşı (person_age): 100-dən böyük olan (max: 144) 5 sətir silindi. Maksimum yaş 94-ə endirildi.
+### 3. Yekun Keyfiyyət Kontrolu (Final QC Metrics)
+Təkrar (dublikat) sətirlər yoxlanılmış, indekslər sıfırlanmış və yekun master-data növbəti mərhələlər üçün `../data/cleaned/credit_risk_cleaned.csv` ünvanına təhlükəsiz şəkildə eksport edilmişdir. 
 
-İş Stajı (person_emp_length): 60 ildən çox olan (max: 123) 2 sətir silindi. Maksimum staj 41 ilə endirildi.
-
-3. Yekun Data Statusu
-Dublikat (təkrar) sətirlər yoxlanıldı və təmizləndi.
-
-Yekun Ölçü: 32,409 sətir, 12 sütun.
-
-Çıxış (Export): Təmizlənmiş master-data növbəti vizuallaşdırma və EDA mərhələsi üçün ../data/cleaned/credit_risk_cleaned.csv ünvanına qeyd edildi.
+* **Yekun ölçü:** 32,409 sətir, 12 ana sütun.
 ---
 
 ## 📊 Kredit Riski Analizi - Kəşfiyyatçı Data Analizi (EDA)
