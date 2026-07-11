@@ -1,4 +1,4 @@
-# 🛡️ Data Governance & Privacy Framework (mPay Scenario)
+# 🛡️ Data Governance & Privacy Framework
 
 Bu sənəd layihədə istifadə olunan `credit_risk_dataset.csv` məlumat dəstinin (dataset) idarəetmə standartlarını, fərdi məlumatların qorunması (PII) siyasətini və Data Quality (Məlumat Keyfiyyəti) qaydalarını tənzimləyir. FinTex və bankçılıq requlyasiyalarına uyğun olaraq hazırlanmışdır.
 
