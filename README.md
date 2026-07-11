@@ -11,9 +11,9 @@
 ---
 ## 🛡️ Məlumat Təhlükəsizliyi və İdarə Edilməsi
 
-Bu layihədə bank standartlarına uyğun olaraq müştərilərin fərdi məlumatlarının (PII) qorunması və data təhlükəsizliyi qaydaları tətbiq olunmuşdur. Hansı məlumatların həssas sayıldığı və necə qorunduğu barədə ətraflı məlumatı ayrıca sənədləşmədən oxuya bilərsiniz:
- [Məlumat təhlükəsizliyi və lüğəti sənədini oxu (DATA_GOVERNANCE.md)](./DATA_GOVERNANCE.md)
----
+Bu layihədə bank standartlarına uyğun olaraq müştərilərin fərdi məlumatlarının (PII) qorunması və data təhlükəsizliyi qaydaları tətbiq olunmuşdur. Hansı məlumatların həssas sayıldığı və necə qorunduğu barədə ətraflı məlumatı ayrıca sənədləşmədən oxuya bilərsiniz.
+
+👉 [Məlumat təhlükəsizliyi və lüğəti sənədini oxu (DATA_GOVERNANCE.md)](./DATA_GOVERNANCE.md)
 
 ## 🛠 Texnologiyalar (Tech Stack)
 * **Python** (Data Processing & Cleaning)
