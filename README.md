@@ -8,7 +8,14 @@
 
 ## 🎨 Layihənin Dashboard Görünüşü
 ![Power BI Dashboard](images/credit_risk_analysis_dashboard.png)
+---
+## 🛡️ Məlumat İdarəçiliyi və Məxfilik (Data Governance & PII Framework)
 
+**AZ:** Bu layihədə bank requlyasiyalarına və FinTex standartlarına uyğun olaraq **Məlumat İdarəçiliyi (Data Governance)** prinsipləri tətbiq edilmişdir. Müştərilərin fərdi məlumatlarının qorunması (PII), risk səviyyələrinə görə data təsnifatı və rol əsaslı giriş icazələri (RLS) xüsusi olaraq tənzimlənmişdir. Layihənin idarəetmə çərçivəsi haqqında daha ətraflı məlumat daxili sənəddə qeyd olunub:
+👉 [DATA_GOVERNANCE.md faylına keçid edərək tam sənədləşməni oxu](./DATA_GOVERNANCE.md)
+
+**EN:** This project applies **Data Governance** frameworks in line with banking regulations and FinTech compliance standards. Personally Identifiable Information (PII) protection, sensitivity-based data classification, and Role-Based Security (RLS) policies have been implemented. For more details, check the internal documentation:
+👉 [Read full framework inside DATA_GOVERNANCE.md](./DATA_GOVERNANCE.md)
 ---
 
 ## 🛠 Texnologiyalar (Tech Stack)
